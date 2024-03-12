@@ -1,0 +1,7 @@
+/addCustomers = to create customer and Transaction records
+/customers = to retrieve all customers
+/transactions = to retrieve all transactions
+/customers/{customerId} = get customers based on customerId
+/updateCustomer/{customerId}?transactionAmount = update customer points based on the transactionAmount provided.
+/updateCustomer/{customerId}/points?startDate&endDate = update customer points based on the date range (3 months old transactions points can be added to existing points).
+/delete/{customerId} = delete Customer based on customerId.
