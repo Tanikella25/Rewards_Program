@@ -1,7 +1,8 @@
-/addCustomers = to create customer and Transaction records
-/customers = to retrieve all customers
-/transactions = to retrieve all transactions
-/customers/{customerId} = get customers based on customerId
-/updateCustomer/{customerId}?transactionAmount = update customer points based on the transactionAmount provided.
-/updateCustomer/{customerId}/points?startDate&endDate = update customer points based on the date range (3 months old transactions points can be added to existing points).
-/delete/{customerId} = delete Customer based on customerId.
+Instruction on how to use the applictaion : 
+http://localhost:9191/addCustomers = to create records of customers with transactions (please refer customer Json)
+http://localhost:9191/customers = to retrieve all customers
+http://localhost:9191/transactions = to retrieve all transactions
+http://localhost:9191/customers/{customerId} = retrieve customers based on customerId
+http://localhost:9191/updateCustomer/{customerId}?transactionAmount = update customer points based on the transactionAmount provided.
+http://localhost:9191/updateCustomer/{customerId}/points?startDate&endDate = update customer points based on the date range (3 months old transactions points can be added to existing points).
+http://localhost:9191/delete/{customerId} = delete Customer based on customerId
