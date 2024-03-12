@@ -1,0 +1,58 @@
+[
+{
+"firstName":"Tony",
+"lastName":"Dinozzo",
+"emailId":"tony.dinozzo@gmail.com",
+"points":0.0,
+"transactions":[
+{
+"customerId":1,
+"transactionAmount":500,
+"transactionDate": "2023-11-15"
+},
+{
+"customerId":1,
+"transactionAmount":100,
+"transactionDate": "2023-11-22"
+},
+{
+"customerId":1,
+"transactionAmount":65,
+"transactionDate": "2023-12-11"
+},
+{
+"customerId":1,
+"transactionAmount":115,
+"transactionDate": "2023-12-25"
+},
+{
+"customerId":1,
+"transactionAmount":120,
+"transactionDate": "2023-12-31"
+},
+{
+"customerId":1,
+"transactionAmount":10,
+"transactionDate": "2024-01-11"
+},
+{
+"customerId":7,
+"transactionAmount":45,
+"transactionDate": "2024-01-18"
+},
+{
+"customerId":1,
+"transactionAmount":52,
+"transactionDate": "2024-01-25"
+},
+{
+"customerId":1,
+"transactionAmount":220,
+"transactionDate": "2024-02-05"
+},
+{
+"customerId":1,
+"transactionAmount":85,
+"transactionDate": "2024-02-05"
+}
+]

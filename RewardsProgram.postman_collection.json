@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "84a6e51e-361a-41c2-a9c4-edea3ebced0e",
+		"name": "RewardsProgram",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2595829"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9191/addCustomers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n{\n\"firstName\":\"Tony\",\n\"lastName\":\"Dinozzo\",\n\"emailId\":\"tony.dinozzo@gmail.com\",\n\"points\":0.0,\n\"transactions\":[\n{\n\"customerId\":1,\n\"transactionAmount\":500,\n\"transactionDate\": \"2023-11-15\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":100,\n\"transactionDate\": \"2023-11-22\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":65,\n\"transactionDate\": \"2023-12-11\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":115,\n\"transactionDate\": \"2023-12-25\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":120,\n\"transactionDate\": \"2023-12-31\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":10,\n\"transactionDate\": \"2024-01-11\"\n},\n{\n\"customerId\":7,\n\"transactionAmount\":45,\n\"transactionDate\": \"2024-01-18\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":52,\n\"transactionDate\": \"2024-01-25\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":220,\n\"transactionDate\": \"2024-02-05\"\n},\n{\n\"customerId\":1,\n\"transactionAmount\":85,\n\"transactionDate\": \"2024-02-05\"\n}\n]\n},\n{\n\"firstName\":\"Jethro\",\n\"lastName\":\"Gibbs\",\n\"emailId\":\"jethro.gibbs@gmail.com\",\n\"points\":0.0,\n\"transactions\":[\n{\n\"customerId\":2,\n\"transactionAmount\":500,\n\"transactionDate\": \"2023-11-15\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":100,\n\"transactionDate\": \"2023-11-22\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":65,\n\"transactionDate\": \"2023-12-11\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":115,\n\"transactionDate\": \"2023-12-25\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":120,\n\"transactionDate\": \"2023-12-31\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":10,\n\"transactionDate\": \"2024-01-11\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":45,\n\"transactionDate\": \"2024-01-18\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":52,\n\"transactionDate\": \"2024-01-25\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":220,\n\"transactionDate\": \"2024-02-05\"\n},\n{\n\"customerId\":2,\n\"transactionAmount\":85,\n\"transactionDate\": \"2024-02-05\"\n}\n]\n},\n{\n\"firstName\":\"Monkey\",\n\"lastName\":\"D.Luffy\",\n\"emailId\":\"monkey.d.luffy@gmail.com\",\n\"points\":0.0,\n\"transactions\":[\n{\n\"customerId\":3,\n\"transactionAmount\":500,\n\"transactionDate\": \"2023-11-15\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":100,\n\"transactionDate\": \"2023-11-22\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":65,\n\"transactionDate\": \"2023-12-11\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":115,\n\"transactionDate\": \"2023-12-25\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":120,\n\"transactionDate\": \"2023-12-31\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":10,\n\"transactionDate\": \"2024-01-11\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":45,\n\"transactionDate\": \"2024-01-18\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":52,\n\"transactionDate\": \"2024-01-25\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":220,\n\"transactionDate\": \"2024-02-05\"\n},\n{\n\"customerId\":3,\n\"transactionAmount\":85,\n\"transactionDate\": \"2024-02-05\"\n}\n]\n},\n{\n\"firstName\":\"Naruto\",\n\"lastName\":\"Uzumaki\",\n\"emailId\":\"naruto.uzumaki@gmail.com\",\n\"points\":0.0,\n\"transactions\":[\n{\n\"customerId\":4,\n\"transactionAmount\":500,\n\"transactionDate\": \"2023-11-15\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":100,\n\"transactionDate\": \"2023-11-22\"\n},\n{\n\"customerId\": 4,\n\"transactionAmount\":65,\n\"transactionDate\": \"2023-12-11\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":115,\n\"transactionDate\": \"2023-12-25\"\n},\n{\n\"customerId\": 4,\n\"transactionAmount\":120,\n\"transactionDate\": \"2023-12-31\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":10,\n\"transactionDate\": \"2024-01-11\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":45,\n\"transactionDate\": \"2024-01-18\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":52,\n\"transactionDate\": \"2024-01-25\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":220,\n\"transactionDate\": \"2024-02-05\"\n},\n{\n\"customerId\":4,\n\"transactionAmount\":85,\n\"transactionDate\": \"2024-02-05\"\n}\n]\n}\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/addCustomers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"addCustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/updateCustomer/1/points?startDate=2023-11-15&endDate=2024-02-05",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/updateCustomer/1/points?startDate=2023-11-15&endDate=2024-02-05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"updateCustomer",
+						"1",
+						"points"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2023-11-15"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-02-05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/updateCustomer/2?price=120",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/updateCustomer/2?price=120",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"updateCustomer",
+						"2"
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "120"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
